@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 ''' # # # # # # # # # PREPARATION # # # # # # # # # # '''
 
 # open file
-train_df = pd.read_csv("/Users/rickysu/Desktop/DSC383W/mini_project/train.csv")
+train_df = pd.read_csv("train.csv")
 # get labels
 train_labels = train_df['Activity']
 # remove unecessary labels
@@ -37,7 +37,7 @@ del train_df['Activity']
 ''' # # # # # # # # # # # FUNCTION FOR TESTING TEST SET # # # # # # # # # # '''
 
 # load test set
-test_df = pd.read_csv("/Users/rickysu/Desktop/DSC383W/mini_project/test.csv")
+test_df = pd.read_csv("test.csv")
 # get labels
 test_labels = test_df['Activity']
 # remove unecesary features
